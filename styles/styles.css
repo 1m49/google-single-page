@@ -1,0 +1,141 @@
+/* top menu */
+
+#top-menu {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+
+#top-menu ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#top-menu a {
+    text-decoration: none;
+    color: #707070;
+}
+
+#top-menu a:hover{
+    color: #464444;
+    text-decoration: underline;
+}
+
+#top-menu .signin-btn {
+    background-color: #4285f4;
+    border-radius: 2px;
+    padding: 8px 14px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#top-menu .signin-btn:hover {
+    text-decoration: none;
+    box-shadow: 1px 1px 1px #ccc;
+    background-color: #5996f8;
+}
+
+#top-menu .google-apps{
+    position: relative;
+    top: 7px;
+    width: 22px;
+}
+
+
+
+
+/* search box */
+
+#search-box{
+    width: 600px;
+    margin: 200px auto;
+    text-align: center;
+
+}
+
+#search-box .google-img{
+    width: 343px;
+}
+
+#search-box .search-form{
+    position: relative;
+}
+
+#search-box .search-input{
+    width: 543px;
+    padding: 9px 9px 9px 40px;
+    border-radius: 23px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+
+}
+
+#search-box .search-input:hover{
+    box-shadow: 2px 0 5px 1px #ccc;
+    border-radius: 12px;
+
+}
+
+#search-box .search-input:focus{
+    outline:none;
+}
+
+#search-box .search-icon{
+    position: absolute;
+    top: 21px;
+    left: 13px;
+    opacity: 0.5;
+}
+
+#search-box .buttons{
+    margin-top: 28px;
+}
+
+#search-box .btn{
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid rgb(231, 229, 229);
+    border-radius: 3px;
+    background-color: hsla(60, 9%, 98%, 0.993);
+    font-weight: bold;
+}
+
+#search-box .btn:hover{
+    background-color: rgb(235, 231, 231);
+    cursor: pointer;
+}
+
+/* bottom menu */
+
+.bottom-menu{
+    background-color: rgb(228, 226, 226);
+    border-top: 1.5px solid #ccc;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bottom-menu a{
+    text-decoration: none;
+    color: #868686;
+}
+
+.bottom-menu a:hover{
+    text-decoration: underline;
+}
+
+.bottom-menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.bottom-menu .right-menu{
+    float: right;
+}
+
+.bottom-menu .left-menu{
+    float: left;
+}
